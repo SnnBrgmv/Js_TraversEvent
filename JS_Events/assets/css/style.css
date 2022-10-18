@@ -1,0 +1,35 @@
+.main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    width: 75%;
+
+}
+
+.main div {
+    width: 20%;
+    height: 25px;
+    margin-top: 2px;
+    /* border: 1px solid gray; */
+    text-align: center;
+    background-color: aliceblue;
+    color: red;
+}
+
+.main .ch {
+    padding-top: 3px;
+}
+
+.main button {
+    padding: 7px 25px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    outline: none;
+    cursor: pointer;
+}
+
+#start {
+    margin-left: 10px;
+}
